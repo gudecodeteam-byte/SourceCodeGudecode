@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jul 26, 2025 at 06:00 PM
+-- Generation Time: Sep 02, 2025 at 04:26 AM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.0.30
 
@@ -59,6 +59,13 @@ CREATE TABLE `booking` (
   `created_at` timestamp NOT NULL DEFAULT current_timestamp()
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
+--
+-- Dumping data for table `booking`
+--
+
+INSERT INTO `booking` (`id`, `kode_booking`, `nama`, `email`, `nomor_hp`, `tanggal`, `durasi`, `motor`, `bukti_file`, `created_at`) VALUES
+(40, 'GD-30642D', 'anggari', 'anggarii.pramudya@gmail.com', '081268691085', '2025-07-30', 10, 'Classic BF Goodrich V7', NULL, '2025-07-31 01:33:26');
+
 -- --------------------------------------------------------
 
 --
@@ -111,7 +118,7 @@ ALTER TABLE `admin`
 -- AUTO_INCREMENT for table `booking`
 --
 ALTER TABLE `booking`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=40;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=41;
 
 --
 -- AUTO_INCREMENT for table `guest_messages`
