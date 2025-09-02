@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rental Motor Elektrik - GoodRide</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-success sticky-top">
+  <div class="container">
+    <a class="navbar-brand" href="#home">
+      <i class="fas fa-motorcycle me-2"></i>GoodRide
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link active" href="#home">Beranda</a></li>
+        <li class="nav-item"><a class="nav-link" href="#motor">Motor</a></li>
+        <li class="nav-item"><a class="nav-link" href="#lokasi">Lokasi</a></li>
+        <li class="nav-item"><a class="nav-link" href="#destinasi">Destinasi</a></li>
+        <li class="nav-item"><a class="nav-link" href="#kontak">Kontak</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+  <section id="home" class="hero-section d-flex align-items-center text-center text-white" style="
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+              url('Motor\ Listrik.png') no-repeat center center;
+  background-size: cover;
+  min-height: 100vh;">
+  <div class="container">
+    <h1 class="display-3 fw-bold">Rental Motor Listrik Kota Medan</h1>
+    <p class="lead fs-4 mt-3">Nikmati perjalanan Anda dengan motor listrik ramah lingkungan dan hemat biaya</p>
+    <a href="#motor" class="btn btn-success btn-lg mt-4 px-5 py-3">Lihat Motor</a>
+  </div>
+</section>
+
+
+<!-- Daftar Motor Listrik -->
+<section id="motor" class="py-5 bg-light">
+  <div class="container">
+    <h2 class="text-center mb-5">Daftar Motor Listrik</h2>
+    <div class="row g-4">
+
+      <!-- Kartu Motor -->
+      <!-- Ulangi bagian ini untuk setiap motor -->
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="card h-100 shadow-sm">
+          <img src="Motor BF Goodrich V7.jpg" class="card-img-top" alt="Classic BF Goodrich V7" style="height: 220px; object-fit: cover;">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Classic BF Goodrich V7</h5>
+            <ul class="list-unstyled mb-3">
+              <li><i class="fas fa-bolt me-2 text-primary"></i>50 Km jangkauan</li>
+              <li><i class="fas fa-tachometer-alt me-2 text-primary"></i>45 Km/jam maksimal</li>
+              <li><i class="fas fa-battery-three-quarters me-2 text-primary"></i>4–6 jam isi daya</li>
+              <li><i class="fas fa-users me-2 text-primary"></i>2 penumpang</li>
+            </ul>
+            <h6 class="mt-auto fw-bold">Rp 120.000/hari</h6>
+            <a href="sewa.php?motor=Classic%20BF%20Goodrich%20V7" class="btn btn-primary w-100 mt-2">Sewa Sekarang</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Motor lainnya -->
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="card h-100 shadow-sm">
+          <img src="Motor Gesits Raya.jpg" class="card-img-top" alt="Gesits Raya" style="height: 220px; object-fit: cover;">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Gesits Raya</h5>
+            <ul class="list-unstyled mb-3">
+              <li><i class="fas fa-bolt me-2 text-primary"></i>60 Km jangkauan</li>
+              <li><i class="fas fa-tachometer-alt me-2 text-primary"></i>70 Km/jam maksimal</li>
+              <li><i class="fas fa-battery-three-quarters me-2 text-primary"></i>3 jam isi daya</li>
+              <li><i class="fas fa-users me-2 text-primary"></i>2 penumpang</li>
+            </ul>
+            <h6 class="mt-auto fw-bold">Rp 160.000/hari</h6>
+            <a href="sewa.php?motor=Gesits%20Raya" class="btn btn-primary w-100 mt-2">Sewa Sekarang</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Polytron Fox-R -->
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="card h-100 shadow-sm">
+          <img src="Motor Polytron Fox-R.jpg" class="card-img-top" alt="Polytron Fox-R" style="height: 220px; object-fit: cover;">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Polytron Fox-R</h5>
+            <ul class="list-unstyled mb-3">
+              <li><i class="fas fa-bolt me-2 text-primary"></i>130 Km jangkauan</li>
+              <li><i class="fas fa-tachometer-alt me-2 text-primary"></i>95 Km/jam maksimal</li>
+              <li><i class="fas fa-battery-three-quarters me-2 text-primary"></i>6 jam isi daya</li>
+              <li><i class="fas fa-users me-2 text-primary"></i>2 penumpang</li>
+            </ul>
+            <h6 class="mt-auto fw-bold">Rp 200.000/hari</h6>
+            <a href="sewa.php?motor=Polytron%20Fox-R" class="btn btn-primary w-100 mt-2">Sewa Sekarang</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Selis E-Max -->
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="card h-100 shadow-sm">
+          <img src="Motor Selis E-Max.jpg" class="card-img-top" alt="Selis E-Max" style="height: 220px; object-fit: cover;">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Selis E-Max</h5>
+            <ul class="list-unstyled mb-3">
+              <li><i class="fas fa-bolt me-2 text-primary"></i>50 Km jangkauan</li>
+              <li><i class="fas fa-tachometer-alt me-2 text-primary"></i>65 Km/jam maksimal</li>
+              <li><i class="fas fa-battery-three-quarters me-2 text-primary"></i>4–8 jam isi daya</li>
+              <li><i class="fas fa-users me-2 text-primary"></i>2 penumpang</li>
+            </ul>
+            <h6 class="mt-auto fw-bold">Rp 130.000/hari</h6>
+            <a href="sewa.php?motor=Selis%20E-Max" class="btn btn-primary w-100 mt-2">Sewa Sekarang</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- United E-Motor TX3000 -->
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="card h-100 shadow-sm">
+          <img src="Motor United E-Motor TX3000.jpg" class="card-img-top" alt="United E-Motor TX3000" style="height: 220px; object-fit: cover;">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">United E-Motor TX3000</h5>
+            <ul class="list-unstyled mb-3">
+              <li><i class="fas fa-bolt me-2 text-primary"></i>50 Km jangkauan</li>
+              <li><i class="fas fa-tachometer-alt me-2 text-primary"></i>60 Km/jam maksimal</li>
+              <li><i class="fas fa-battery-three-quarters me-2 text-primary"></i>4–6 jam isi daya</li>
+              <li><i class="fas fa-users me-2 text-primary"></i>2 penumpang</li>
+            </ul>
+            <h6 class="mt-auto fw-bold">Rp 150.000/hari</h6>
+            <a href="sewa.php?motor=United%20E-Motor%20TX3000" class="btn btn-primary w-100 mt-2">Sewa Sekarang</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Yadea Kemper -->
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="card h-100 shadow-sm">
+          <img src="Motor Yadea Kemper.jpg" class="card-img-top" alt="Yadea Kemper" style="height: 220px; object-fit: cover;">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Yadea Kemper</h5>
+            <ul class="list-unstyled mb-3">
+              <li><i class="fas fa-bolt me-2 text-primary"></i>50 Km jangkauan</li>
+              <li><i class="fas fa-tachometer-alt me-2 text-primary"></i>80 Km/jam maksimal</li>
+              <li><i class="fas fa-battery-three-quarters me-2 text-primary"></i>4–8 jam isi daya</li>
+              <li><i class="fas fa-users me-2 text-primary"></i>2 penumpang</li>
+            </ul>
+            <h6 class="mt-auto fw-bold">Rp 180.000/hari</h6>
+            <a href="sewa.php?motor=Yadea%20Kemper" class="btn btn-primary w-100 mt-2">Sewa Sekarang</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+        <!-- Tambahan motor lain bisa disalin dengan format yang sama -->
+
+    
+  </section>
+  <!-- Lokasi -->
+  <section id="lokasi" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-4">Lokasi Kami</h2>
+      <div class="row justify-content-center">
+        <div class="col-md-8 text-center">
+          <p>Kami berlokasi di pusat kota Medan untuk akses cepat dan mudah.</p>
+          <p><i class="fas fa-map-marker-alt me-2"></i>Jl. Gatot Subroto No. 123, Medan</p>
+          <iframe class="w-100 rounded" height="300" frameborder="0" style="border:0"
+           src="https://www.google.com/maps?q=Jl.+Gatot+Subroto+No.+123,+Medan&output=embed" allowfullscreen>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Destinasi -->
+  <section id="destinasi" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Rekomendasi Destinasi</h2>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card h-100">
+            <img src="destinasi1.jpg" class="card-img-top" alt="Pantai Cermin">
+            <div class="card-body">
+              <h5 class="card-title">Pantai Cermin</h5>
+              <p>Wisata pantai populer dekat Medan, cocok untuk akhir pekan santai bersama keluarga.</p>
+            </div>
+          </div>
+        </div>
+        <!-- Tambahkan destinasi lain sesuai kebutuhan -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Kontak -->
+  <section id="kontak" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-4">Hubungi Kami</h2>
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <form>
+            <div class="mb-3">
+              <label for="nama" class="form-label">Nama</label>
+              <input type="text" class="form-control" id="nama" placeholder="Nama Anda">
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" class="form-control" id="email" placeholder="email@contoh.com">
+            </div>
+            <div class="mb-3">
+              <label for="pesan" class="form-label">Pesan</label>
+              <textarea class="form-control" id="pesan" rows="4" placeholder="Tulis pesan Anda..."></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Kirim</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center py-4 bg-primary text-white">
+    <div class="container">
+      <p class="mb-0">&copy; 2025 GoodRide. Semua Hak Dilindungi.</p>
+    </div>
+  </footer>
+
+
+        <!-- Tambahkan motor lainnya dengan format sama -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ... Seksi Lokasi, Destinasi, Kontak, Footer tetap seperti semula ... -->
+<!-- Kontak -->
+<section id="kontak" class="py-5 bg-light">
+  <div class="container">
+    <h2 class="text-center mb-4">Hubungi Kami</h2>
+    <div class="row justify-content-center">
+      <div class="col-md-8">
+        <form>
+          <div class="mb-3">
+            <label for="nama" class="form-label">Nama</label>
+            <input type="text" class="form-control" id="nama" required>
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="email" required>
+          </div>
+          <div class="mb-3">
+            <label for="pesan" class="form-label">Pesan</label>
+            <textarea class="form-control" id="pesan" rows="4" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Kirim Pesan</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Lokasi -->
+<section id="lokasi" class="py-5 bg-light">
+  <div class="container">
+    <h2 class="text-center mb-4">Lokasi Kami</h2>
+    <div class="row justify-content-center">
+      <div class="col-md-8 text-center">
+        <p>Kami berlokasi di pusat kota Medan untuk akses cepat dan mudah.</p>
+        <p><i class="fas fa-map-marker-alt me-2"></i>Jl. Gatot Subroto No. 123, Medan</p>
+        <iframe class="w-100 rounded" height="300" frameborder="0" style="border:0"
+          src="https://www.google.com/maps/embed?pb=!1m18!..." allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Destination Section -->
+    <section id="destinasi" class="py-5 bg-white">
+        <div class="container">
+            <h2 class="text-center section-title">Destinasi Wisata</h2>
+            
+            <div class="row g-4">
+                <!-- Destination 1 -->
+                <div class="col-md-4">
+                    <div class="motor-card">
+                        <div class="motor-image">
+                            <img src="Masjid Raya.jpg">
+                        </div>
+                        <div class="motor-body">
+                            <h3 class="motor-title">Masjid Raya Medan</h3>
+                            <div class="motor-specs">
+                                <div class="spec-item">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    <span>Kota Medan</span>
+                                </div>
+                                <div class="spec-item">
+                                    <i class="fas fa-clock"></i>
+                                    <span>04.00 - 00.00 WIB</span>
+                                </div>
+                            </div>
+                            <p class="mt-3">Ikon utama kota Medan yang menawarkan pemandangan Masjid dengan arsitektur
+                                khas Timur Tengah dengan sentuhan Melayu.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Destination 2 -->
+                <div class="col-md-4">
+                    <div class="motor-card">
+                        <div class="motor-image">
+                            <img src="Istana Maimun.jpg">
+                        </div>
+                        <div class="motor-body">
+                            <h3 class="motor-title">Istana Maimun</h3>
+                            <div class="motor-specs">
+                                <div class="spec-item">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    <span>Kota Medan</span>
+                                </div>
+                                <div class="spec-item">
+                                    <i class="fas fa-clock"></i>
+                                    <span>08.00 - 17.00 WIB</span>
+                                </div>
+                            </div>
+                            <p class="mt-3">Bangunan peninggalan Kerajaan Deli dengan arsitektur yang memadukan gaya melayu, Timur Tengah,
+                                dan Eropa memberikan gambaran tentang masa kejayaan Kesultanan Deli pada masa lampau.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Destination 3 -->
+                <div class="col-md-4">
+                    <div class="motor-card">
+                        <div class="motor-image">
+                            <img src="Tjong Afie.jpg">
+                        </div>
+                        <div class="motor-body">
+                            <h3 class="motor-title">Museum Tjong A Fie Mansion</h3>
+                            <div class="motor-specs">
+                                <div class="spec-item">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    <span>Kota Medan</span>
+                                </div>
+                                <div class="spec-item">
+                                    <i class="fas fa-clock"></i>
+                                    <span>09.00 - 17.00 WIB</span>
+                                </div>
+                            </div>
+                            <p class="mt-3">Bangunan bersejarah yang mencerminkan gaya arsitektur unik dari budaya Chinese dan Malaysia.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
+<!-- Contact Section -->
+    <section id="kontak" class="py-5">
+        <div class="container">
+            <h2 class="text-center section-title">Hubungi Kami</h2>
+            
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="contact-card">
+                        <h3>Informasi Kontak</h3>
+                        
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h5>Telepon</h5>
+                                <p>0857 - 6324 - 9311</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h5>Email</h5>
+                                <p>GoodRide_Official.co.id</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <i class="fas fa-clock"></i>
+                            <div>
+                                <h5>Jam Operasional</h5>
+                                <p>08.00 - 20.00 (Senin-Jumat)</p>
+                                <p>09.00 - 17.00 (Sabtu-Minggu)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-6">
+  <div class="contact-card">
+    <h3>Kirim Pesan</h3>
+
+    <form action="simpan_pesan.php" method="POST">
+      <div class="mb-3">
+        <label for="name" class="form-label">Nama Lengkap</label>
+        <input type="text" class="form-control" id="name" name="name" required>
+      </div>
+
+      <div class="mb-3">
+        <label for="email" class="form-label">Email</label>
+        <input type="email" class="form-control" id="email" name="email" required>
+      </div>
+
+      <div class="mb-3">
+        <label for="phone" class="form-label">Nomor Telepon</label>
+        <input type="tel" class="form-control" id="phone" name="phone">
+      </div>
+
+      <div class="mb-3">
+        <label for="message" class="form-label">Pesan</label>
+        <textarea class="form-control" id="message" name="message" rows="3" required></textarea>
+      </div>
+
+      <button type="submit" class="btn btn-success">Kirim Pesan</button>
+    </form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- Footer -->
+    <footer class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h4>GoodRide</h4>
+                    <p>Menyediakan jasa rental motor listrik berkualitas dengan harga terjangkau di Kota Medan.</p>
+                </div>
+                
+                <div class="col-md-4">
+                    <h4>Link Cepat</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="#home" class="text-white">Beranda</a></li>
+                        <li><a href="#motor" class="text-white">Motor</a></li>
+                        <li><a href="#lokasi" class="text-white">Lokasi</a></li>
+                        <li><a href="#destinasi" class="text-white">Destinasi</a></li>
+                        <li><a href="#kontak" class="text-white">Kontak</a></li>
+                    </ul>
+                </div>
+                
+                <div class="col-md-4">
+                    <h4>Follow Kami</h4>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                    
+                    <p class="mt-3">
+                        <small>&copy; 2025 GoodRide. All Rights Reserved.</small>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+<!-- JS Bootstrap -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
